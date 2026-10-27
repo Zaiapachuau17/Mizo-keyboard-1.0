@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/candidate_strip_container"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/candidate_height"
+    android:background="@color/candidate_bg_dark"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingStart="8dp"
+    android:paddingEnd="8dp" />

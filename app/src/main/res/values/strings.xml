@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mizo Keyboard</string>
+    <string name="subtype_mizo">Mizo (Ṭ, Ṅ)</string>
+    <string name="subtype_english">English (US)</string>
+    <string name="settings_title">Mizo Keyboard Settings</string>
+    <string name="personal_dictionary_title">Mizo Personal Dictionary</string>
+
+    <!-- Setup Wizard -->
+    <string name="setup_step1_title">Step 1: Enable Keyboard</string>
+    <string name="setup_step1_desc">Enable Mizo Keyboard in Android System Language &amp; Input settings.</string>
+    <string name="setup_step1_btn">Enable in Settings</string>
+
+    <string name="setup_step2_title">Step 2: Select Keyboard</string>
+    <string name="setup_step2_desc">Switch your current active typing method to Mizo Keyboard.</string>
+    <string name="setup_step2_btn">Select Mizo Keyboard</string>
+
+    <string name="setup_step3_title">Step 3: Test Typing</string>
+    <string name="setup_step3_desc">Try typing Ṭ, Ṅ, and Mizo words in the test field below.</string>
+
+    <!-- Settings Options -->
+    <string name="pref_category_language">Language &amp; Layout</string>
+    <string name="pref_language_mode">Active Language</string>
+    <string name="pref_dedicated_keys">Dedicated Ṭ and Ṅ Keys</string>
+    <string name="pref_dedicated_keys_summary">Show dedicated ṭ and ṅ buttons on keyboard bottom row</string>
+    <string name="pref_category_dictionary">Dictionary &amp; Suggestions</string>
+    <string name="pref_suggestions_enabled">Word Suggestions</string>
+    <string name="pref_suggestions_summary">Show predictive Mizo word suggestions bar</string>
+    <string name="pref_autocorrect_enabled">Auto-Correction</string>
+    <string name="pref_autocorrect_summary">Automatically correct common Mizo typos (e.g. tha -> ṭha)</string>
+    <string name="pref_manage_personal_dict">Personal Dictionary</string>
+    <string name="pref_manage_personal_dict_summary">View, add, or delete your custom Mizo words</string>
+    <string name="pref_category_appearance">Appearance &amp; Feedback</string>
+    <string name="pref_theme">Keyboard Theme</string>
+    <string name="pref_haptic_feedback">Vibration on keypress</string>
+    <string name="pref_sound_on_keypress">Sound on keypress</string>
+</resources>

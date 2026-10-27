@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<input-method xmlns:android="http://schemas.android.com/apk/res/android"
+    android:settingsActivity="com.mizo.keyboard.settings.SettingsActivity"
+    android:isDefault="true"
+    android:supportsSwitchingToNextInputMethod="true">
+
+    <!-- Subtype 1: Mizo (Latin with Ṭ, Ṅ and circumflex tone marks) -->
+    <subtype
+        android:label="@string/subtype_mizo"
+        android:imeSubtypeLocale="lus"
+        android:imeSubtypeMode="keyboard"
+        android:imeSubtypeExtraValue="KeyboardLayoutSet=mizo" />
+
+    <!-- Subtype 2: English (QWERTY with Mizo bilingual fallback) -->
+    <subtype
+        android:label="@string/subtype_english"
+        android:imeSubtypeLocale="en_US"
+        android:imeSubtypeMode="keyboard"
+        android:imeSubtypeExtraValue="KeyboardLayoutSet=en_us" />
+
+</input-method>

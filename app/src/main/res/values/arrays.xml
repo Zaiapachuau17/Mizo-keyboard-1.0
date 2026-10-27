@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="language_mode_entries">
+        <item>Mizo (Primary)</item>
+        <item>English (US)</item>
+        <item>Bilingual (Mizo + English)</item>
+    </string-array>
+    <string-array name="language_mode_values">
+        <item>mizo</item>
+        <item>english</item>
+        <item>bilingual</item>
+    </string-array>
+
+    <string-array name="theme_entries">
+        <item>Dark (Gboard Gray)</item>
+        <item>Light (Pixel Crisp)</item>
+        <item>AMOLED Pure Black</item>
+    </string-array>
+    <string-array name="theme_values">
+        <item>dark</item>
+        <item>light</item>
+        <item>amoled</item>
+    </string-array>
+</resources>

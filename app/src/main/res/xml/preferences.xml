@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/pref_category_language">
+        <ListPreference
+            app:key="pref_language_mode"
+            app:title="@string/pref_language_mode"
+            app:entries="@array/language_mode_entries"
+            app:entryValues="@array/language_mode_values"
+            app:defaultValue="mizo" />
+
+        <SwitchPreferenceCompat
+            app:key="pref_dedicated_mizo_keys"
+            app:title="@string/pref_dedicated_keys"
+            app:summary="@string/pref_dedicated_keys_summary"
+            app:defaultValue="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/pref_category_dictionary">
+        <SwitchPreferenceCompat
+            app:key="pref_suggestions"
+            app:title="@string/pref_suggestions_enabled"
+            app:summary="@string/pref_suggestions_summary"
+            app:defaultValue="true" />
+
+        <SwitchPreferenceCompat
+            app:key="pref_autocorrect"
+            app:title="@string/pref_autocorrect_enabled"
+            app:summary="@string/pref_autocorrect_summary"
+            app:defaultValue="true" />
+
+        <Preference
+            app:key="pref_manage_personal_dict"
+            app:title="@string/pref_manage_personal_dict"
+            app:summary="@string/pref_manage_personal_dict_summary" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/pref_category_appearance">
+        <ListPreference
+            app:key="pref_theme"
+            app:title="@string/pref_theme"
+            app:entries="@array/theme_entries"
+            app:entryValues="@array/theme_values"
+            app:defaultValue="dark" />
+
+        <SwitchPreferenceCompat
+            app:key="pref_haptic"
+            app:title="@string/pref_haptic_feedback"
+            app:defaultValue="true" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
